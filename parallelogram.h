@@ -7,7 +7,7 @@
 class Parallelogram : public Figure
 {
 public:
-    Parallelogram();
+    Parallelogram(Point point1, Point point2, Point point3);
     virtual double Area() const override;
     virtual double Perimeter() const override;
 };
