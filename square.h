@@ -2,10 +2,10 @@
 #define SQUARE_H
 #include "rectangle.h"
 
-class Square : public Rectangle
+class Square : public Figure
 {
 public:
-    Square();
+    Square(Point point1, Point point2);
     virtual double Area() const override;
     virtual double Perimeter() const override;
 };
