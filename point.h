@@ -15,11 +15,11 @@ public:
     double y() const{
         return this->yCoordinate;
     }
-    Point& x(const double newX){
+    Point& x(double newX){
         this->xCoordinate = newX;
         return *this;
     }
-    Point& y(const double newY){
+    Point& y(double newY){
         this->yCoordinate = newY;
         return *this;
     }
