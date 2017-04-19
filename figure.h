@@ -1,7 +1,16 @@
 #ifndef FIGURE_H
 #define FIGURE_H
+
 #include "point.h"
+#include "vector2d.h"
 #include <vector>
+
+struct BadCoordinateException
+{
+    BadCoordinateException(){}
+    ~BadCoordinateException(){}
+};
+
 class Figure
 {
 public:
