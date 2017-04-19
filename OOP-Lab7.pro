@@ -7,7 +7,8 @@ SOURCES += main.cpp \
     parallelogram.cpp \
     rhombus.cpp \
     rectangle.cpp \
-    square.cpp
+    square.cpp \
+    vector2d.cpp
 
 HEADERS += \
     figure.h \
@@ -15,5 +16,6 @@ HEADERS += \
     rhombus.h \
     rectangle.h \
     square.h \
-    point.h
+    point.h \
+    vector2d.h
 
