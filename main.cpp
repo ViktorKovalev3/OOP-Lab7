@@ -62,9 +62,9 @@ int main(){
         std::cin >> cmd;
 
         if (cmd != 'n'){
-            figures.push_back(getFigure(cmd));
+            figures.emplace_back(getFigure(cmd));
         } else{
-            return 0;
+            break;
         }
 
         system("clear");
@@ -78,4 +78,3 @@ int main(){
         delete i;
     return 0;
 }
-
